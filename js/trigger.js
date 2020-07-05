@@ -12,7 +12,6 @@ function showMenu() {
     $('#trigger').css('transform', 'scaleX(2.5)');
     
     menuVisible = true;
-    console.log('k');
 }
 
 function hideMenu() {
@@ -27,7 +26,6 @@ function hideMenu() {
     $('#trigger').css('transform', 'scaleX(1)');
     
     menuVisible = false;
-    console.log('j');
 }
 
 $(document).ready(function () {
