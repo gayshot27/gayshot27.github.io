@@ -7,15 +7,17 @@
     top: 1.5%;
     left: 1.25%;
     z-index: 10;
-
+    
     /* background-color: rgba(255, 255, 255, 0.6); */
     border-radius: 10px;
     /* backdrop-filter: blur(12px); */
-    padding: 5px 15px;
-
+    padding: 5px 16px;
+    
     overflow: auto;
     transition: transform 0.25s linear;
     transform: translateX(-25em);
+    /* border-right: thin solid rgba(0, 0, 0, 0.2); */
+    box-shadow: 0 6px 12px -8px rgba(32, 33, 36, .78);
 }
 
 #menu::-webkit-scrollbar {
@@ -52,7 +54,7 @@
     left: 0;
     z-index: 5;
     height: 100%;
-    width: 200px;
+    width: 203.44px;
     transform-origin: left center;
     /* background-color: black; */
 }
