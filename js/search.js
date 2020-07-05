@@ -1,7 +1,7 @@
 function searchBar(width, display = true) {
     // $('html, body').css('overflow, hidden');
     $('#google').css({
-        'width': width,
+        'height': width,
     });
     $('#google form').css({
         'width': 'auto',
@@ -17,9 +17,9 @@ function searchBar(width, display = true) {
 }
 
 $(document).on('mouseenter', '#google', function () {
-    searchBar('20%');
+    searchBar('14.5em');
 }).on('mouseleave', '#google', function () {
-    searchBar('44px', false);
+    searchBar('3em', false);
 });
 
 $(document).on('click', '#google', function () {
@@ -29,8 +29,8 @@ $(document).on('click', '#google', function () {
 $(document).on('focusin', '#google input', function () {
     $(document).off('mouseleave', '#google');
 }).on('focusout', '#google input', function () {
-    searchBar('44px', false);
+    searchBar('3em', false);
     $(document).on('mouseleave', '#google', function () {
-        searchBar('44px', false);
+        searchBar('3em', false);
     });
 });
