@@ -33,7 +33,6 @@ function hideMenu() {
 $(document).ready(function () {
     $('#trigger').hover(function (e) {
         var distance = parseInt(e.pageX);
-        console.log(distance);
     
         if (distance > 500) {
             if (menuVisible)
